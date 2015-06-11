@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+background-color: #bebebe;	
+
+}
+#container{
+ background-image:url(images/images/background_01.jpg);
+  repeat-y: none;
+ width:1024px;
+height:90px;
+ padding: 20px;
+}
+#logo{
+	text-align: center;
+margin-top:3%;
+	
+}
+#nav{
+display: block;
+background-color:white;	
+padding-left: -20px;
+width: 920px;
+
+
+}
+nav{
+text-decoration:none;	
+}
+#spacer{
+background-color:  #bebebe;
+}
+
+li {
+display: inline;
+font-size:18px;
+background: white;
+margin-left:40px;
+
+}
+
+#topimg {
+ text-align: center;
+ padding: 5px;
+ background-color: white;
+ margin: auto 0;
+ width:920px;
+ 	
+}
+#main{
+display:inherit;	
+}
+.house, .car, .sunset, .interior{
+display: inline-block;
+background-color: white;
+width: 200px;
+height:400px;	
+padding:10px;
+text-align:justify;
+margin: 20px 0;
+float: left;
+}
+
+
+.house, .car{
+float: left;
+margin-right: 10px;
+clear:none;
+
+
+}
+.thumbnails {
+background: white;
+width: 920px;	
+}
+
+
+#welcome{
+width: 920px;	
+background: white;
+}
+
+
+
+
